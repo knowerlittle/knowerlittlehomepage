@@ -1,0 +1,13 @@
+<div class="sidebar z1 p3 lg-py4 border-box bg-white box-shadow"{{#if @blog.cover}} style="background-image: url({{@blog.cover}});"{{/if}}>
+    {{! The big featured header }}
+    <header class="main-header">
+        {{#if @blog.logo}}<a class="blog-logo mt0 hop5" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+        {{#is "home"}}
+        <h1 class="page-title h1 mt0"><a class="black" href="{{@blog.url}}">{{@blog.title}}</a></h1>
+        {{else}}
+        <h2 class="page-title h1 mt0"><a class="black" href="{{@blog.url}}">{{@blog.title}}</a></h2>
+        {{/is}}
+        <h2 class="page-description h3 light gray mb3">{{@blog.description}}</h2>
+    </header>
+    {{navigation}}
+</div>

@@ -540,14 +540,14 @@ hr {
   border: 0;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: rgba(0,0,0,.125);
+  border-bottom-color: rgba(0,0,0,.5);
 }
 /* Basscss Color Forms */
 
 .field {
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(0,0,0,.125);
+  border-color: rgba(0,0,0,.5);
   border-radius: 3px;
 }
 
@@ -558,16 +558,16 @@ hr {
 }
 
 .field:disabled, .field.is-disabled {
-  background-color: rgba(0,0,0,.125);
+  background-color: rgba(0,0,0,.5);
   opacity: .5;
 }
 
 .field:-moz-read-only:not(select), .field.is-read-only {
-  background-color: rgba(0,0,0,.125);
+  background-color: rgba(0,0,0,.5);
 }
 
 .field:read-only:not(select), .field.is-read-only {
-  background-color: rgba(0,0,0,.125);
+  background-color: rgba(0,0,0,.5);
 }
 
 
@@ -1244,7 +1244,7 @@ hr {
 
 /* Basscss Colors */
 
-/* 
+/*
 
    VARIABLES
 

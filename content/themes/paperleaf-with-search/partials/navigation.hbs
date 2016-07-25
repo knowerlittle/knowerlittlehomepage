@@ -5,18 +5,13 @@
         {{/foreach}}
     </ul>
     <div class="sidebar-search mb3">
-        <script>
-          (function() {
-            var cx = '005322108562334887824:qoag4lt-1ko';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
+        <form role="search" method="get" class="search-form" action="#">
+            <label>
+              <span class="screen-reader-text">Search for:</span>
+              <input type="search" class="search-field" placeholder="Search …" value="" name="s" title="Search for:">
+            </label>
+            <input type="submit" class="search-submit" value="Search">
+          </form>
     </div>
    
       <a class="inline-block hop5 pl1" href="http://www.twitter.com/knowerlittle" title="Twitter page"><span class="hide">Twitter page</span><i class="fa fa-twitter fa-2x" style="color:#474747"></i></a>

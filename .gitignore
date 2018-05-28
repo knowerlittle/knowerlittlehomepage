@@ -2,3 +2,8 @@ node_modules/
 npm-debug.log*
 
 content/themes/casper/
+.DS_Store
+content/themes/paperleaf-with-search/assets/.DS_Store
+myserver.key
+server.csr
+www.knowerlittle.io.crt

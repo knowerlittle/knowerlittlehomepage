@@ -7,3 +7,4 @@ content/themes/paperleaf-with-search/assets/.DS_Store
 myserver.key
 server.csr
 www.knowerlittle.io.crt
+.idea/
